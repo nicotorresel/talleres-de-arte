@@ -1,0 +1,11 @@
+#caja{
+    width: 250px;
+    height: 250px;
+    background: yellow;
+    border-radius: 250px;
+    margin-left: 40%;
+    }
+    
+    body{
+        text-align: center;
+    }

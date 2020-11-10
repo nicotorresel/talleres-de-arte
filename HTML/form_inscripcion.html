@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- css -->
+        <link rel="stylesheet" href="../CSS/index.css">
+          <!-- javascript-->
+         <script src="../JS/form.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav class="menu">
+              <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="busqueda_cuadros.html">Obras</a></li>
+                <li><a href="consulta_talleres.html">Talleres</a></li>
+                <li><a href="form_inscripcion.html">Inscripción</a></li>
+              </ul>
+            </nav>
+          </header>
+        <h1>Formulario de incripcion de espacio de Trabajo</h1>
+        <div id="Enviar">
+
+            <form id="miFormulario">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre">
+                <label for="Descripcion">Descripcion</label>
+                <textarea id="Descripcion" placeholder="Escribe aquí una breve descripción de tu espacio de tu taller"></textarea>
+                <label for="Actividades">Actividades</label>
+                <textarea id="Descripcion" placeholder="Menciona las actividades del taller"></textarea>
+                <label for="Direccion">Direccion</label>
+                <input type="text" id="direccion" onkeypress=consulta()>
+                <label for="Horario">Horario</label>
+                <input type="time" id="Horario">
+                <label for="Telefono">Telefono</label>
+                <input type="text" id="Telefono">
+                <label for="Foto">Foto</label>
+                <input type="text" id="Foto">
+                <input type="submit" id="botonsubmit" onclick=mensaje()>
+            </form>
+        </div>
+        
+    </body>
+</html>

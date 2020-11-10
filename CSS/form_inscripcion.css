@@ -1,0 +1,13 @@
+#noLogueado {
+    background: red;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 250px;
+    height: 100px;
+    text-align: center;
+}
+
+form input {
+    padding: 5px;
+    cursor: pointer;
+    display: block;
+}

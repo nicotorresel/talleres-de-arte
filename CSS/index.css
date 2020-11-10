@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: wheat;
+}
+
+header{
+    width: 100%;
+    background: brown;
+}
+
+header label {
+    display: none;
+    width: 30px;
+    height: 25px;
+    padding: 10px;
+    border-right: 1px solid white;
+}
+
+header label:hover {
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.3);    
+}
+
+.menu ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.menu ul:hover {
+    background: rgb(0,0,0,0.3);
+
+}
+
+.menu li:hover {
+    background: rgb(0,0,0,0.3);
+}
+
+.menu li a{
+    display: block;
+    padding: 12px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+#busqueda {
+    position: absolute;
+    width: 20%;
+    height: 4%;
+    left: 77%;
+    top: 1%;
+}
+
+
+#miFormulario {
+    width: 40%;
+    border: 1px solid brown;
+    margin: 20px;
+    padding: 20px;
+    display: block;
+}
+
+label {
+    font-size: 12px;
+    display: block;
+    width: 100%;
+}
+
+input, textarea {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: none;
+}
+
+input:focus, textarea:focus {
+    border: 3px solid green;
+}
+
+#botonsubmit {
+    margin:0;
+    background: violet;
+    color: royalblue;
+    border: none;
+}
+
+
+#botonsubmit:hover {
+    background: red;
+    cursor: pointer;
+}
+
+#popup {
+    background: salmon;
+    width: 30%;
+    color: slateblue;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 33px;
+    min-height: 250px;
+    border-radius: 22px;
+    position: absolute;
+    left: 34%;
+    top: 30%;
+    display: none;
+}
