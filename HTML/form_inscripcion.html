@@ -30,7 +30,9 @@
                 <label for="Actividades">Actividades</label>
                 <textarea id="Descripcion" placeholder="Menciona las actividades del taller"></textarea>
                 <label for="Direccion">Direccion</label>
-                <input type="text" id="direccion" onkeypress=consulta()>
+                <div id="address_input">
+                  <input type="text" id="direccion" oninput=consulta()>
+                </div>
                 <label for="Horario">Horario</label>
                 <input type="time" id="Horario">
                 <label for="Telefono">Telefono</label>
@@ -39,7 +41,7 @@
                 <input type="text" id="Foto">
                 <input type="submit" id="botonsubmit" onclick=mensaje()>
             </form>
-        </div>
+        </label>
         
     </body>
 </html>
